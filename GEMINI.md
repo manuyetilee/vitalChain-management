@@ -21,8 +21,8 @@ This repository contains the initial product and requirements documentation for 
 
 *   **`overview.md`**: The core product definition document. It outlines the problem statement, goals, core features (the "what"), justification (the "why"), high-level workflow, and a detailed list of ambiguities and open questions that need to be resolved. This is the most important file for understanding the project's scope.
 *   **`documentation/conversation.md`**: A transcript of the initial conversation between "Alex" (the founder) and "Camila" (the product manager). It provides the raw, unfiltered vision and pain points from the client's perspective.
-*   **`features/`**: This directory will likely contain detailed specifications for individual features as they are defined.
-*   **`specResearch/`**: This directory may be used for research related to technical specifications, such as API documentation for third-party services like DocuSign or Stripe.
+*   **`development/`**: Home for detailed feature specs and implementation planning as features are defined.
+*   **`research/`**: Home for technical research such as DocuSign or Stripe notes.
 *   **`README.md`**: Currently empty, but will likely contain a high-level summary of the project and instructions for new contributors.
 *   **`GEMINI.md`**: This file, providing context and instructions for the AI agent.
 
@@ -34,6 +34,6 @@ The contents of this directory are intended to be used as the single source of t
 
 *   **Familiarize yourself with `overview.md` first.** It contains the most comprehensive summary of the project.
 *   **Refer to `documentation/conversation.md` for the original client context.**
-*   **As new features are defined, create new files in the `features/` directory.**
-*   **When research is conducted, document the findings in the `specResearch/` directory.**
+*   **As new features are defined, create new files in the `development/` directory.**
+*   **When research is conducted, document the findings in the `research/` directory.**
 *   **Once development begins, this `GEMINI.md` file should be updated** to include information about the project's tech stack, build commands, and testing procedures.

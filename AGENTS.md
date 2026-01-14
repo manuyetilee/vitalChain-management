@@ -1,11 +1,12 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-This repository is documentation-focused.
-- `documentation/`: source materials like the founder interview transcript (for example, `documentation/conversation.md`).
-- `overview.md`: consolidated product summary, requirements framing, and ambiguity list.
-- `research/` and `development/`: work-in-progress notes and drafts.
-- `README.md`: placeholder; update once a definitive project description exists.
+This repository is documentation-focused and acts as the source of truth for the VitalChain-Medical project.
+- `overview.md`: core product definition, goals, workflow, and open questions.
+- `documentation/`: source materials such as `documentation/conversation.md`.
+- `development/`: home for detailed feature specs and implementation planning.
+- `research/`: home for technical research (for example, DocuSign or Stripe notes).
+- `README.md`: placeholder for a high-level project summary.
 If code is added later, introduce a clear separation such as `src/` for application code and `tests/` for automated tests, and update this guide accordingly.
 
 ## Build, Test, and Development Commands
@@ -16,6 +17,7 @@ All content is Markdown.
 - Use sentence-case headings and keep sections short and task-focused.
 - Prefer ASCII characters unless non-ASCII is required by the content.
 - Name files by purpose (for example, `overview.md`, `requirements-v1.md`).
+As features are defined, create new files in `development/` and document research in `research/`.
 If code is introduced, add language-specific formatting rules, indentation preferences, and any formatter/linter commands here.
 
 ## Testing Guidelines
@@ -28,6 +30,12 @@ No test framework is configured. If tests are introduced, specify:
 The Git history currently contains a single commit (`first commit`), so no established convention exists yet.
 - Use clear, imperative commit messages (for example, `Add requirements overview`).
 - For PRs, include a concise summary, links to relevant docs, and screenshots when visual artifacts are added.
+
+## Agent-Specific Instructions
+- Start with `overview.md` for the most complete project summary.
+- Use `documentation/conversation.md` for the original client context.
+- Add feature specs in `development/` and research notes in `research/`.
+- Update `GEMINI.md` once development begins to include tech stack, build, and testing details.
 
 ## Security & Configuration Tips
 Do not include real patient data or PHI. Use redacted or synthetic examples in documentation and any future datasets.
