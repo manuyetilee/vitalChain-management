@@ -15,7 +15,7 @@ echo "$detailed_summary" >> session-summary.md
 echo "" >> session-summary.md
 
 # 3. Remind to update context files
-echo "Reminder: Please review and update GEMINI.md and AGENTS.md if needed."
+echo "Reminder: Read GEMINI.md and sync to AGENTS.md. Ensure both files are identical."
 
 # 4. Commit to git
 git add .

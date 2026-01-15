@@ -1,41 +1,39 @@
-# Repository Guidelines
+# GEMINI Project Guide
 
-## Project Structure & Module Organization
-This repository is documentation-focused and acts as the source of truth for the VitalChain-Medical project.
-- `overview.md`: core product definition, goals, workflow, and open questions.
-- `documentation/`: source materials such as `documentation/conversation.md`.
-- `development/`: home for detailed feature specs and implementation planning.
-- `research/`: home for technical research (for example, DocuSign or Stripe notes).
-- `README.md`: placeholder for a high-level project summary.
-If code is added later, introduce a clear separation such as `src/` for application code and `tests/` for automated tests, and update this guide accordingly.
+This guide provides instructional context for the AI agent interacting with the **VitalChain-Medical** repository.
 
-## Build, Test, and Development Commands
-No build, test, or run commands are defined today. When tooling is added, document the exact commands and expected outputs in this section (for example, `npm test` for unit tests or `make build` for packaging).
+## Directory Overview
 
-## Coding Style & Naming Conventions
-All content is Markdown.
-- Use sentence-case headings and keep sections short and task-focused.
-- Prefer ASCII characters unless non-ASCII is required by the content.
-- Name files by purpose (for example, `overview.md`, `requirements-v1.md`).
-As features are defined, create new files in `development/` and document research in `research/`.
-If code is introduced, add language-specific formatting rules, indentation preferences, and any formatter/linter commands here.
+This repository contains the initial product and requirements documentation for an internal tool for **Alex Medical Supply**, a medical supply distribution company. The goal is to replace a complex and error-prone Excel-based workflow with a robust, web-based application.
 
-## Testing Guidelines
-No test framework is configured. If tests are introduced, specify:
-- Test location (for example, `tests/` or `__tests__/`).
-- Naming conventions (for example, `*.test.ts` or `*_spec.rb`).
-- How to run the test suite and any coverage expectations.
+## Project Status
 
-## Commit & Pull Request Guidelines
-The Git history currently contains a single commit (`first commit`), so no established convention exists yet.
-- Use clear, imperative commit messages (for example, `Add requirements overview`).
-- For PRs, include a concise summary, links to relevant docs, and screenshots when visual artifacts are added.
+*   **Phase:** Conceive
+*   **Analysis:**
+    *   Codex overview analysis: Complete
+    *   Comparison with human overview: Started
+*   **Roles:**
+    *   **Gemini:** Researches and develops detailed technical specifications.
+    *   **Codex:** Oversees the project, assesses progress, and makes high-level decisions.
+*   **Documentation:** Initial gathering of documentation is complete.
 
-## Agent-Specific Instructions
-- Start with `overview.md` for the most complete project summary.
-- Use `documentation/conversation.md` for the original client context.
-- Add feature specs in `development/` and research notes in `research/`.
-- Update `GEMINI.md` once development begins to include tech stack, build, and testing details.
+## Key Files
 
-## Security & Configuration Tips
-Do not include real patient data or PHI. Use redacted or synthetic examples in documentation and any future datasets.
+*   **`overview.md`**: The core product definition document. It outlines the problem statement, goals, core features (the "what"), justification (the "why"), high-level workflow, and a detailed list of ambiguities and open questions that need to be resolved. This is the most important file for understanding the project's scope.
+*   **`documentation/conversation.md`**: A transcript of the initial conversation between "Alex" (the founder) and "Camila" (the product manager). It provides the raw, unfiltered vision and pain points from the client's perspective.
+*   **`development/`**: Home for detailed feature specs and implementation planning as features are defined.
+*   **`research/`**: Home for technical research such as DocuSign or Stripe notes.
+*   **`README.md`**: Currently empty, but will likely contain a high-level summary of the project and instructions for new contributors.
+*   **`GEMINI.md`**: This file, providing context and instructions for the AI agent.
+
+## Usage
+
+The contents of this directory are intended to be used as the single source of truth for the **VitalChain-Medical** project. As the project progresses from planning to development, this directory will be updated with more detailed specifications, technical designs, and eventually, source code.
+
+**Instructions for the AI agent:**
+
+*   **Familiarize yourself with `overview.md` first.** It contains the most comprehensive summary of the project.
+*   **Refer to `documentation/conversation.md` for the original client context.**
+*   **As new features are defined, create new files in the `development/` directory.**
+*   **When research is conducted, document the findings in the `research/` directory.**
+*   **Once development begins, this `GEMINI.md` file should be updated** to include information about the project's tech stack, build commands, and testing procedures.
