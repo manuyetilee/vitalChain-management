@@ -8,24 +8,26 @@ This repository contains the initial product and requirements documentation for 
 
 ## Project Status
 
-*   **Phase:** Conceive (QA)
-*   **Analysis:**
-    *   Codex overview analysis: Complete
-    *   Comparison with human overview: Started
-    *   Pain point analysis & "Why" justification: Complete
+*   **Phase:** Design & Architecture
+*   **Analysis & Documentation:**
+    *   The "Conceive" phase is complete.
+    *   The initial suite of product documentation has been created, including pain points, SWOT analysis, What/Why/How, and a BPMN process diagram.
 *   **Roles:**
     *   **Gemini:** Researches and develops detailed technical specifications.
     *   **Codex:** Oversees the project, assesses progress, and makes high-level decisions.
-*   **Documentation:** Initial gathering of documentation is complete.
 
 ## Key Files
 
-*   **`overview.md`**: The core product definition document. It outlines the problem statement, goals, core features (the "what"), justification (the "why"), high-level workflow, and a detailed list of ambiguities and open questions that need to be resolved. This is the most important file for understanding the project's scope.
-*   **`documentation/conversation.md`**: A transcript of the initial conversation between "Alex" (the founder) and "Camila" (the product manager). It provides the raw, unfiltered vision and pain points from the client's perspective.
-*   **`development/`**: Home for detailed feature specs and implementation planning as features are defined.
-*   **`research/`**: Home for technical research such as DocuSign or Stripe notes.
-*   **`README.md`**: Currently empty, but will likely contain a high-level summary of the project and instructions for new contributors.
-*   **`GEMINI.md`**: This file, providing context and instructions for the AI agent.
+*   **`overview.md`**: The core product definition document.
+*   **`documentation/conversation.md`**: The source transcript from the founder interview.
+*   **`documentation/pain_points.md`**: A detailed list of the core problems the project aims to solve.
+*   **`documentation/what_why_how.md`**: A summary document outlining the project's goals and approach.
+*   **`documentation/swot_analysis.md`**: An analysis of the project's strengths, weaknesses, opportunities, and threats.
+*   **`documentation/Diagram BPMN.pdf`**: The visual workflow diagram for the proposed system.
+*   **`development/design-system/colors.css`**: A CSS file containing the color primitives (design tokens) for the UI.
+*   **`development/design-system/tailwind.config.js`**: The configuration file for integrating the design system colors with Tailwind CSS.
+*   **`README.md`**: Currently empty.
+*   **`GEMINI.md`**: This file.
 
 ## Usage
 
