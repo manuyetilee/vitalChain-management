@@ -1,0 +1,31 @@
+/*
+  VitalChain - Design System Color Palette
+  Format: CSS Custom Properties (Variables)
+  Use this as a reference to create Color Styles in Figma.
+*/
+
+:root {
+  /* === 1. Primary Colors (Brand & Actions) === */
+  --color-brand-blue: #5A9FAC;
+  --color-brand-blue-dark: #4A8394;
+  --color-brand-blue-light: #EAF4F6;
+
+  /* === 2. Secondary / Accent Color === */
+  --color-accent-sage: #A3B899;
+
+  /* === 3. Neutral Colors (UI Foundation) === */
+  --color-text-primary: #2F3542;
+  --color-text-secondary: #8A94A6;
+  --color-border-primary: #D1D9E4;
+  --color-ui-disabled: #EAEFF5;
+  --color-background-primary: #FFFFFF;
+  --color-background-secondary: #F7F9FC;
+
+  /* === 4. Semantic Colors (Feedback & Status) === */
+  --color-feedback-success: #2ECC71;
+  --color-feedback-warning: #F39C12;
+  --color-feedback-error: #E74C3C;
+  --color-feedback-success-light: #D4F4DD;
+  --color-feedback-warning-light: #FEF5E7;
+  --color-feedback-error-light: #FADBD8;
+}
